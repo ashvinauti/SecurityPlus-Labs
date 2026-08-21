@@ -1,0 +1,149 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.vim/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+.nose*
+
+# Environment & Configuration
+.env
+.env.local
+.env.*.local
+*.conf
+config.ini
+settings.local.py
+
+# Sensitive Files & Secrets
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+private_key
+secrets.json
+credentials.json
+api_keys.txt
+passwords.txt
+
+# Lab & Temp Files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+*.DS_Store
+ehthumbs.db
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Generated Files
+*.md.bak
+*.txt.bak
+/reports/
+/results/
+
+# Large Files
+*.iso
+*.vmdk
+*.vdi
+*.qcow2
+*.img
+*.tar.gz
+*.zip
+
+# Credentials & Auth
+auth/
+certs/backup/
+keys/backup/
+tokens/
+
+# Lab Data
+lab-data/
+*.pcap
+*.cap
+lab_output/
+
+# VS Code
+launch.json
+settings.json
+
+# Git
+.git/
+.gitattributes
+
+# Node modules (if using any web tools)
+node_modules/
+npm-debug.log
+
+# Ruby (if using any automation tools)
+Gemfile.lock
+
+# Vagrant
+.vagrant/
+Vagrantfile
+
+# Specific file types to ignore
+*.xlsx
+*.xls
+~$*
+
+# Keep these important files
+!README.md
+!GETTING_STARTED.md
+!DOMAINS_OVERVIEW.md
+!.gitkeep
